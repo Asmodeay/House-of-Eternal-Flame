@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+---
+
+<Layout title="Services | The House of the Eternal Flame">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="font-cinzel text-4xl text-center mb-16">Our Sacred Services</h1>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <ServiceCard
+        title="Weddings"
+        description="Sacred union ceremonies that honor your love and commitment in the light of the Eternal Flame."
+        icon="💑"
+      />
+      <ServiceCard
+        title="Baptisms"
+        description="Welcome new souls to the Lucent Path through our sacred water ceremonies."
+        icon="✨"
+      />
+      <ServiceCard
+        title="Spiritual Counseling"
+        description="Find guidance and clarity through one-on-one spiritual counseling sessions."
+        icon="🙏"
+      />
+      <ServiceCard
+        title="Funeral Services"
+        description="Honor and celebrate the transition of loved ones with dignity and reverence."
+        icon="🕊️"
+      />
+      <ServiceCard
+        title="Meditation Classes"
+        description="Learn to connect with the inner flame through guided meditation practices."
+        icon="🧘"
+      />
+      <ServiceCard
+        title="Community Worship"
+        description="Join our weekly gatherings to celebrate and strengthen our spiritual community."
+        icon="⭐"
+      />
+    </div>
+  </main>
+</Layout>
